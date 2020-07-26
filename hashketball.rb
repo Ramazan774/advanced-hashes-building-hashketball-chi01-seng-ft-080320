@@ -119,11 +119,7 @@ def game_hash
 }
 end 
 
-def player_data (player)
-game_hash[:players].map do |player|
-  player 
-end
-end
+return game_hash[:players]
 
 
 
