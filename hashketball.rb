@@ -123,6 +123,7 @@ def player_data (player)
 game_hash[:players].map do |player|
   player 
 end
+end
 
 
 
