@@ -118,6 +118,6 @@ def game_hash
 }
 }
 end
-player_data= game_hash[:home][:players].map {|player|player[:player_name]}
+player_data= game_hash.map {|player|player[:player_name]}
   
 
