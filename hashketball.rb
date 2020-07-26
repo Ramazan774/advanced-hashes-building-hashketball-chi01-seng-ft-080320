@@ -121,6 +121,6 @@ end
 
 game_hash(player)[:players].map do |player|
   player 
+end
 
-  
 
