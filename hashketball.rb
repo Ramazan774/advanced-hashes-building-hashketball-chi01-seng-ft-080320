@@ -118,5 +118,6 @@ def game_hash
 }
 }
 end
-
+player_data= game_hash[:home][:players].map do 
+  
 
