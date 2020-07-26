@@ -119,7 +119,10 @@ def game_hash
 }
 end 
 
-game_hash = {}
+def player_data (player)
+game_hash[:home][:players].map do |player|
+  player 
+end
 
 
 
