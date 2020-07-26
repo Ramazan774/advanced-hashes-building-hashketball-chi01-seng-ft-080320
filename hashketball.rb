@@ -119,9 +119,8 @@ def game_hash
 }
 end 
 
-def player_helper
-game_hash[:home][:players].merge(game_hash[:away][:players])
-end
+game_hash(player)[:players].map do |player|
+  player 
 
   
 
