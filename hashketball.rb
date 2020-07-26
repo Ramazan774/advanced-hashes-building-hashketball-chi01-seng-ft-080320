@@ -9,7 +9,7 @@ result = {
   :away => {
     :team_name => ""
     :colors => ["",""]
-    :players => [{""}]
+    :players => [{"}"]
   }
 }
 
